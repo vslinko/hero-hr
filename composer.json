@@ -1,0 +1,49 @@
+{
+    "name": "rithis/hero-hr",
+    "homepage": "https://github.com/rithis/hero.hr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/hero.hr/issues",
+        "wiki": "https://github.com/rithis/hero.hr/wiki",
+        "source": "https://github.com/rithis/hero.hr"
+    },
+    "require": {
+        "twig/twig": "@stable",
+        "doctrine/common": "@stable",
+        "monolog/monolog": "@stable",
+        "doctrine/dbal": "@stable",
+
+        "symfony/symfony": "2.1.*@stable",
+        "symfony/monolog-bundle": "2.1.*@stable",
+        "doctrine/orm": "2.3.*@stable",
+        "doctrine/doctrine-bundle": "1.0.*@stable",
+        "doctrine/doctrine-fixtures-bundle": "@dev",
+        "doctrine/doctrine-migrations-bundle": "@dev",
+        "rithis/composer-handler": "2.1.*@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Rithis\\Composer\\ScriptHandler::touchParameters",
+            "Rithis\\Composer\\ScriptHandler::clearCache",
+            "Rithis\\Composer\\ScriptHandler::installAssets"
+        ],
+        "post-update-cmd": [
+            "Rithis\\Composer\\ScriptHandler::clearCache",
+            "Rithis\\Composer\\ScriptHandler::installAssets"
+        ]
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,10 @@
+parameters:
+    secret: ThisTokenIsNotSoSecretChangeIt
+
+    database_driver: pdo_pgsql
+    database_host: localhost
+    database_port: ~
+    database_name: hero-hr
+    database_user: root
+    database_password: ~
+    database_path: ~
