@@ -23,10 +23,17 @@
 
         "symfony/symfony": "2.1.*@stable",
         "symfony/monolog-bundle": "2.1.*@stable",
+        "symfony/assetic-bundle": "2.1.*@stable",
         "doctrine/orm": "2.3.*@stable",
         "doctrine/doctrine-bundle": "1.0.*@stable",
         "doctrine/doctrine-fixtures-bundle": "@dev",
         "doctrine/doctrine-migrations-bundle": "@dev",
+        "stof/doctrine-extensions-bundle": "@dev",
+        "sensio/framework-extra-bundle": "2.1.*@stable",
+        "friendsofsymfony/rest-bundle": "@stable",
+        "nelmio/api-doc-bundle": "@dev",
+        "jms/twig-js-bundle": "@dev",
+        "friendsofsymfony/jsrouting-bundle": "@stable",
         "rithis/composer-handler": "2.1.*@stable"
     },
     "autoload": {

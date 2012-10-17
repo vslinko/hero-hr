@@ -1,0 +1,14 @@
+_assetic:
+    resource: .
+    type: assetic
+
+_nelmio_apidoc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: documentation
+
+_fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+_rithis_herohr:
+    resource: "@RithisHeroHRBundle/Controller"
+    type: annotation

@@ -1,0 +1,28 @@
+<div class="container">
+    <form action="{{ path("rithis_herohr_vacancy_post") }}" method="post" data-view="VacancyFormView">
+        <div class="input-append">
+            <input class="input-xxlarge" type="text" name="title" placeholder="Vacancy Title" data-vacancy-form-title>
+            <button class="btn btn-primary" type="submit">Create New Vacancy</button>
+        </div>
+        <div data-vacancy-form-errors>
+            {% if form is defined %}
+                {% set errors = form.title.vars.errors %}
+                {% include "errors.twig" %}
+            {% endif %}
+        </div>
+    </form>
+
+    <hr>
+
+    <h1>Vacancies</h1>
+
+    <ul class="thumbnails">
+        {% for vacancy in vacancies %}
+            <li class="span4">
+                <div class="thumbnail" data-view="VacancyPreviewView" data-collection="Vacancies" data-model-id="{{ vacancy.id }}">
+                    <h3><a href="{{ path("rithis_herohr_vacancy_get", {slug: vacancy.slug}) }}" data-vacancy-preview-open>{{ vacancy.title }}</a></h3>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

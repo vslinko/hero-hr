@@ -1,0 +1,11 @@
+{% extends "RithisHeroHRBundle::base.html.twig" %}
+
+{% block javascripts %}
+    <script>
+        app.Vacancies.reset({{ vacancies|serialize|raw }});
+    </script>
+{% endblock %}
+
+{% block content %}
+    {% include "vacancies.twig" %}
+{% endblock %}

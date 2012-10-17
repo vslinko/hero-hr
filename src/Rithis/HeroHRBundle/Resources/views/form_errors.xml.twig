@@ -1,0 +1,15 @@
+{% block form_errors %}
+    {% for error in errors %}
+        <error message="{{ error.message }}" />
+    {% endfor %}
+{% endblock %}
+
+{% block form_widget %}
+    {% for field in form if field.vars.errors|length > 0 %}
+        <property name="{{ field.name }}">
+            {{ form_errors(field) }}
+        </property>
+    {% endfor %}
+
+    {{ form_errors(form) }}
+{% endblock %}

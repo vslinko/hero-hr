@@ -1,6 +1,65 @@
 {
-    "hash": "a962138c730b5fa034ae56881213ce7b",
+    "hash": "353297f82d63e3c26dab41c861ee0826",
     "packages": [
+        {
+            "name": "dflydev/markdown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-markdown.git",
+                "reference": "11f8faa2d17f717a038b4d372abd22a6ac4a15dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/dflydev/dflydev-markdown/zipball/11f8faa2d17f717a038b4d372abd22a6ac4a15dc",
+                "reference": "11f8faa2d17f717a038b4d372abd22a6ac4a15dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "time": "1342369887",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "dflydev\\markdown": "src"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Dragonfly Development Inc.",
+                    "email": "info@dflydev.com",
+                    "homepage": "http://dflydev.com"
+                },
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com",
+                    "homepage": "http://beausimensen.com"
+                },
+                {
+                    "name": "Michel Fortin",
+                    "homepage": "http://michelf.com"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net"
+                }
+            ],
+            "description": "PHP Markdown & Extra",
+            "homepage": "http://github.com/dflydev/dflydev-markdown",
+            "keywords": [
+                "markdown"
+            ]
+        },
         {
             "name": "doctrine/common",
             "version": "2.3.0",
@@ -76,17 +135,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "v1.0.0-ALPHA3"
+                "reference": "181b71e9a19bcdc93a9bf5c19dc0ef9615656173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/data-fixtures/zipball/v1.0.0-ALPHA3",
-                "reference": "v1.0.0-ALPHA3",
+                "url": "https://github.com/doctrine/data-fixtures/zipball/181b71e9a19bcdc93a9bf5c19dc0ef9615656173",
+                "reference": "181b71e9a19bcdc93a9bf5c19dc0ef9615656173",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
+            "time": "1350901469",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -108,8 +168,7 @@
             "homepage": "http://www.doctrine-project.org",
             "keywords": [
                 "database"
-            ],
-            "time": "1348136794"
+            ]
         },
         {
             "name": "doctrine/dbal",
@@ -249,12 +308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "1e2c7af26f9f7ac9110d47cee8133d700fb99ae1"
+                "reference": "9edc67af16e736a31605e7fa9c9e3edbd9db6427"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineFixturesBundle/zipball/1e2c7af26f9f7ac9110d47cee8133d700fb99ae1",
-                "reference": "1e2c7af26f9f7ac9110d47cee8133d700fb99ae1",
+                "url": "https://github.com/doctrine/DoctrineFixturesBundle/zipball/9edc67af16e736a31605e7fa9c9e3edbd9db6427",
+                "reference": "9edc67af16e736a31605e7fa9c9e3edbd9db6427",
                 "shasum": ""
             },
             "require": {
@@ -263,6 +322,7 @@
                 "doctrine/doctrine-bundle": "1.0.*",
                 "symfony/doctrine-bridge": ">=2.1.0,<2.3-dev"
             },
+            "time": "1350914272",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -292,8 +352,7 @@
             "keywords": [
                 "persistence",
                 "Fixture"
-            ],
-            "time": "1349789605"
+            ]
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -302,12 +361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineMigrationsBundle.git",
-                "reference": "b3ec793dc232fb19f025c3ffc9a0757471d78605"
+                "reference": "e494aceebe05200c3f5e7b54c9facf2cf0b2099c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineMigrationsBundle/zipball/b3ec793dc232fb19f025c3ffc9a0757471d78605",
-                "reference": "b3ec793dc232fb19f025c3ffc9a0757471d78605",
+                "url": "https://github.com/doctrine/DoctrineMigrationsBundle/zipball/e494aceebe05200c3f5e7b54c9facf2cf0b2099c",
+                "reference": "e494aceebe05200c3f5e7b54c9facf2cf0b2099c",
                 "shasum": ""
             },
             "require": {
@@ -316,6 +375,7 @@
                 "symfony/framework-bundle": ">=2.1.0,<2.3-dev",
                 "doctrine/doctrine-bundle": "1.0.*"
             },
+            "time": "1350561870",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -346,8 +406,7 @@
                 "dbal",
                 "migrations",
                 "schema"
-            ],
-            "time": "1349789824"
+            ]
         },
         {
             "name": "doctrine/migrations",
@@ -355,12 +414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations",
-                "reference": "v1.0-ALPHA1"
+                "reference": "c1d875ce7d092dd1bc7508c3867b5c6b97431e43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/migrations/zipball/v1.0-ALPHA1",
-                "reference": "v1.0-ALPHA1",
+                "url": "https://github.com/doctrine/migrations/zipball/c1d875ce7d092dd1bc7508c3867b5c6b97431e43",
+                "reference": "c1d875ce7d092dd1bc7508c3867b5c6b97431e43",
                 "shasum": ""
             },
             "require": {
@@ -374,7 +433,7 @@
             "suggest": {
                 "symfony/console": "to run the migration from the console"
             },
-            "time": "1349435713",
+            "time": "1350643044",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -474,6 +533,507 @@
             ]
         },
         {
+            "name": "friendsofsymfony/jsrouting-bundle",
+            "version": "1.0.3",
+            "target-dir": "FOS/JsRoutingBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle/zipball/1.0.3",
+                "reference": "1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0,<2.2-dev",
+                "symfony/serializer": ">=2.0,<2.2-dev"
+            },
+            "time": "2012-10-22 06:35:23",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "FOS\\JsRoutingBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
+                }
+            ],
+            "description": "Symfony FOSJsRoutingBundle",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "Js Routing"
+            ]
+        },
+        {
+            "name": "friendsofsymfony/rest",
+            "version": "dev-master",
+            "target-dir": "FOS/Rest",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSRest",
+                "reference": "b48857315c39715245303fb5bbc1bab98026209e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FriendsOfSymfony/FOSRest/zipball/b48857315c39715245303fb5bbc1bab98026209e",
+                "reference": "b48857315c39715245303fb5bbc1bab98026209e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/http-foundation": ">=2.0,<2.3-dev"
+            },
+            "time": "1347135166",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.8.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "FOS\\Rest": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kahwe Smith",
+                    "email": "smith@pooteeweet.org"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSRest/contributors"
+                }
+            ],
+            "description": "This library provides various tools to develop RESTful API's",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "rest"
+            ]
+        },
+        {
+            "name": "friendsofsymfony/rest-bundle",
+            "version": "0.9.0",
+            "target-dir": "FOS/RestBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSRestBundle",
+                "reference": "0.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FriendsOfSymfony/FOSRestBundle/zipball/0.9.0",
+                "reference": "0.9.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "friendsofsymfony/rest": ">=0.7.0,<0.9.0-dev",
+                "symfony/framework-bundle": ">=2.0,<2.3-dev",
+                "sensio/framework-extra-bundle": ">=2.0,<2.3-dev",
+                "jms/serializer-bundle": "0.9.*"
+            },
+            "require-dev": {
+                "symfony/form": ">=2.0,<2.3-dev",
+                "symfony/yaml": ">=2.0,<2.3-dev"
+            },
+            "time": "2012-09-23 13:32:09",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "FOS\\RestBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kahwe Smith",
+                    "email": "smith@pooteeweet.org"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/friendsofsymfony/FOSRestBundle/contributors"
+                },
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
+                }
+            ],
+            "description": "This Bundle provides various tools to rapidly develop RESTful API's with Symfony2",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "rest"
+            ]
+        },
+        {
+            "name": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/l3pp4rd/DoctrineExtensions.git",
+                "reference": "c1b29053224b7ddf5496e434e2bd7dc258db4731"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions/zipball/c1b29053224b7ddf5496e434e2bd7dc258db4731",
+                "reference": "c1b29053224b7ddf5496e434e2bd7dc258db4731",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "doctrine/common": ">=2.2,<2.5-dev"
+            },
+            "suggest": {
+                "doctrine/orm": ">=2.1",
+                "doctrine/mongodb-odm": "*"
+            },
+            "time": "1351233998",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Gedmo": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gediminas Morkevicius",
+                    "email": "gediminas.morkevicius@gmail"
+                }
+            ],
+            "description": "Doctrine2 behavioral extensions",
+            "homepage": "http://gediminasm.org/",
+            "keywords": [
+                "tree",
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "sluggable",
+                "loggable",
+                "translatable",
+                "nestedset",
+                "sortable",
+                "timestampable"
+            ]
+        },
+        {
+            "name": "jms/metadata",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/metadata",
+                "reference": "a965c62e73891ec324d9e1fc8b0389dd42ade09d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/schmittjoh/metadata/zipball/a965c62e73891ec324d9e1fc8b0389dd42ade09d",
+                "reference": "a965c62e73891ec324d9e1fc8b0389dd42ade09d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.0,<2.4-dev"
+            },
+            "suggest": {
+                "doctrine/common": ">=2.0"
+            },
+            "time": "1350036797",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Metadata\\": "src/"
+                }
+            },
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Class/method/property metadata management in PHP",
+            "keywords": [
+                "annotations",
+                "yaml",
+                "xml",
+                "metadata"
+            ]
+        },
+        {
+            "name": "jms/serializer-bundle",
+            "version": "0.9.0",
+            "target-dir": "JMS/SerializerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
+                "reference": "0.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/schmittjoh/JMSSerializerBundle/zipball/0.9.0",
+                "reference": "0.9.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "jms/metadata": ">=1.1.0,<1.3-dev"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": ">=2.0,<2.2-dev",
+                "symfony/yaml": ">=2.0,<2.2-dev",
+                "symfony/form": ">=2.0,<2.2-dev",
+                "symfony/validator": ">=2.0,<2.2-dev",
+                "twig/twig": ">=1.8,<2.0-dev",
+                "doctrine/orm": ">=2.1,<2.4-dev"
+            },
+            "time": "2012-09-20 14:23:52",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "JMS\\SerializerBundle": ""
+                }
+            },
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Allows you to easily serialize, and deserialize object graphs of any complexity",
+            "homepage": "http://jmsyst.com/bundles/JMSSerializerBundle",
+            "keywords": [
+                "json",
+                "xml",
+                "serialization",
+                "deserialization",
+                "jaxb"
+            ]
+        },
+        {
+            "name": "jms/twig-js",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/twig.js",
+                "reference": "5064c67fa3051ea95c4c70933adc19c494bdb69a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/schmittjoh/twig.js/zipball/5064c67fa3051ea95c4c70933adc19c494bdb69a",
+                "reference": "5064c67fa3051ea95c4c70933adc19c494bdb69a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "twig/twig": ">=1.8,<2.0-dev"
+            },
+            "time": "1349771960",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TwigJs": "src/"
+                }
+            },
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "twig.js, flexible, secure, and high-performance templating engine for Javascript",
+            "keywords": [
+                "templating"
+            ]
+        },
+        {
+            "name": "jms/twig-js-bundle",
+            "version": "dev-master",
+            "target-dir": "JMS/TwigJsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/JMSTwigJsBundle",
+                "reference": "782e363416f48d6c0404c5877a747df4d1e87cc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/schmittjoh/JMSTwigJsBundle/zipball/782e363416f48d6c0404c5877a747df4d1e87cc3",
+                "reference": "782e363416f48d6c0404c5877a747df4d1e87cc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "jms/twig-js": "dev-master",
+                "symfony/framework-bundle": ">=2.0,<2.2-dev"
+            },
+            "time": "1349115421",
+            "type": "symfony-bundle",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "JMS\\TwigJsBundle": ""
+                }
+            },
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Integrates twig.js into your Symfony2 application",
+            "homepage": "http://jmsyst.com/bundles/JMSTwigJsBundle",
+            "keywords": [
+                "templating"
+            ]
+        },
+        {
+            "name": "kriswallsmith/assetic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/kriswallsmith/assetic.git",
+                "reference": "a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/kriswallsmith/assetic/zipball/a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc",
+                "reference": "a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/process": ">=2.1.0,<2.3-dev",
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "twig/twig": ">=1.6.0,<2.0",
+                "leafo/lessphp": "*",
+                "leafo/scssphp": "*",
+                "ptachoire/cssembed": "*",
+                "leafo/scssphp-compass": "*"
+            },
+            "suggest": {
+                "twig/twig": "Assetic provides the integration with the Twig templating engine",
+                "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+                "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+                "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+                "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin"
+            },
+            "time": "1351079542",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Assetic": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Asset Management for PHP",
+            "homepage": "https://github.com/kriswallsmith/assetic",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ]
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.2.1",
             "source": {
@@ -527,6 +1087,69 @@
             "keywords": [
                 "log",
                 "logging"
+            ]
+        },
+        {
+            "name": "nelmio/api-doc-bundle",
+            "version": "dev-master",
+            "target-dir": "Nelmio/ApiDocBundle",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/nelmio/NelmioApiDocBundle",
+                "reference": "9c7577f7c21a65a4cbaa101603275259be574d7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/nelmio/NelmioApiDocBundle/zipball/9c7577f7c21a65a4cbaa101603275259be574d7d",
+                "reference": "9c7577f7c21a65a4cbaa101603275259be574d7d",
+                "shasum": ""
+            },
+            "require": {
+                "dflydev/markdown": "1.0.*",
+                "symfony/framework-bundle": ">=2.1,<2.3-dev",
+                "symfony/twig-bundle": ">=2.1,<2.3-dev",
+                "symfony/form": ">=2.1,<2.3-dev"
+            },
+            "require-dev": {
+                "friendsofsymfony/rest-bundle": "dev-master",
+                "jms/serializer-bundle": "0.9.*",
+                "symfony/css-selector": ">=2.1,<2.3-dev",
+                "symfony/browser-kit": ">=2.1,<2.3-dev",
+                "symfony/validator": ">=2.1,<2.3-dev",
+                "symfony/yaml": ">=2.1,<2.3-dev"
+            },
+            "time": "1351085922",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Nelmio\\ApiDocBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nelmio",
+                    "homepage": "http://nelm.io"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/nelmio/NelmioApiDocBundle/contributors"
+                }
+            ],
+            "description": "Generates documentation for your REST API from annotations",
+            "keywords": [
+                "documentation",
+                "rest",
+                "api",
+                "doc"
             ]
         },
         {
@@ -612,6 +1235,178 @@
                 "configuration"
             ],
             "time": "1347340208"
+        },
+        {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v2.1.0",
+            "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle",
+                "reference": "v2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle/zipball/v2.1.0",
+                "reference": "v2.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "2.1.*",
+                "doctrine/common": ">=2.1,<2.4-dev"
+            },
+            "time": "2012-08-29 03:02:19",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle provides a way to configure your controllers with annotations",
+            "keywords": [
+                "annotations",
+                "controllers"
+            ]
+        },
+        {
+            "name": "stof/doctrine-extensions-bundle",
+            "version": "dev-master",
+            "target-dir": "Stof/DoctrineExtensionsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stof/StofDoctrineExtensionsBundle",
+                "reference": "41d9399e56868f82f871723a1842b5f2053e2e24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/stof/StofDoctrineExtensionsBundle/zipball/41d9399e56868f82f871723a1842b5f2053e2e24",
+                "reference": "41d9399e56868f82f871723a1842b5f2053e2e24",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.1,<2.3-dev",
+                "gedmo/doctrine-extensions": "2.3.*"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/mongodb-odm-bundle": "2.1.*"
+            },
+            "time": "1350324852",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Stof\\DoctrineExtensionsBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
+            "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+            "keywords": [
+                "tree",
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "sluggable",
+                "loggable",
+                "translatable",
+                "nestedset",
+                "sortable",
+                "timestampable"
+            ]
+        },
+        {
+            "name": "symfony/assetic-bundle",
+            "version": "v2.1.0",
+            "target-dir": "Symfony/Bundle/AsseticBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/AsseticBundle",
+                "reference": "v2.1.0-RC2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/AsseticBundle/zipball/v2.1.0-RC2",
+                "reference": "v2.1.0-RC2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "2.1.*",
+                "kriswallsmith/assetic": "1.1.*"
+            },
+            "require-dev": {
+                "symfony/twig-bundle": "2.1.*",
+                "symfony/console": "2.1.*",
+                "symfony/class-loader": "2.1.*",
+                "symfony/yaml": "2.1.*",
+                "symfony/form": "2.1.*",
+                "symfony/dom-crawler": "2.1.*",
+                "symfony/css-selector": "2.1.*"
+            },
+            "suggest": {
+                "symfony/twig-bundle": "2.1.*"
+            },
+            "time": "2012-08-28 03:22:44",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Bundle\\AsseticBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Integrates Assetic into Symfony2",
+            "homepage": "https://github.com/symfony/AsseticBundle",
+            "keywords": [
+                "assets",
+                "compression",
+                "minification"
+            ]
         },
         {
             "name": "symfony/monolog-bundle",
@@ -763,22 +1558,22 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.10.0",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.10.0"
+                "reference": "v1.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/v1.10.0",
-                "reference": "v1.10.0",
+                "url": "https://github.com/fabpot/Twig/zipball/v1.10.3",
+                "reference": "v1.10.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-09-28 13:11:39",
+            "time": "2012-10-19 03:45:49",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -823,10 +1618,17 @@
         "doctrine/dbal": 0,
         "symfony/symfony": 0,
         "symfony/monolog-bundle": 0,
+        "symfony/assetic-bundle": 0,
         "doctrine/orm": 0,
         "doctrine/doctrine-bundle": 0,
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/doctrine-migrations-bundle": 20,
+        "stof/doctrine-extensions-bundle": 20,
+        "sensio/framework-extra-bundle": 0,
+        "friendsofsymfony/rest-bundle": 0,
+        "nelmio/api-doc-bundle": 20,
+        "jms/twig-js-bundle": 20,
+        "friendsofsymfony/jsrouting-bundle": 0,
         "rithis/composer-handler": 0
     }
 }

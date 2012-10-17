@@ -11,9 +11,19 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle($this),
+            new FOS\RestBundle\FOSRestBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new JMS\TwigJsBundle\JMSTwigJsBundle(),
+            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
+
+            new Rithis\HeroHRBundle\RithisHeroHRBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

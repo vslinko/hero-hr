@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vacancy xmlns="urn:hr.hero.vacancies" xmlns:atom="http://www.w3.org/2005/Atom" id="{{ vacancy.id }}">
+
+    <title>{{ vacancy.title }}</title>
+
+    <atom:link rel="self" type="application/hr.hero.vacancies+xml" href="{{ url("rithis_herohr_vacancy_get", {slug: vacancy.slug}) }}" />
+
+</vacancy>

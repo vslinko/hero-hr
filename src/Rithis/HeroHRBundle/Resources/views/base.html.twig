@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale }}">
+<head>
+    <title>Hero HR</title>
+
+    {% stylesheets
+        "http://bootswatch.com/superhero/bootstrap.min.css"
+        "http://cdn.jsdelivr.net/bootstrap/2.1.1/css/bootstrap-responsive.min.css"
+    %}
+    <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+</head>
+<body>
+
+<div class="navbar navbar-inverse" data-view="NavbarView">
+    <div class="navbar-inner">
+        <a class="brand" href="{{ path("rithis_herohr_vacancy_all") }}" data-navbar-vacancies>Hero HR</a>
+        <ul class="nav">
+            <li><a href="{{ path("rithis_herohr_vacancy_all") }}" data-navbar-vacancies>Vacancies</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="content">
+    {% block content "" %}
+</div>
+
+{% if not app.request.query.has('no-js') or not app.debug %}
+    {% javascripts
+        "http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+        "http://underscorejs.org/underscore-min.js"
+        "http://backbonejs.org/backbone-min.js"
+        "https://raw.github.com/schmittjoh/twig.js/master/twig.js"
+        "https://raw.github.com/ggozad/burry.js/master/burry.js"
+        "https://raw.github.com/ggozad/Backbone.cachingSync/master/backbone.cachingsync.js"
+    %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% javascripts filter="twig_js" "@RithisHeroHRBundle/Resources/views/shared/*.twig" %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', {"callback": "fos.Router.setData"}) }}"></script>
+
+    {% javascripts
+        "@RithisHeroHRBundle/Resources/public/js/lib/backbone-twig.js"
+        "@RithisHeroHRBundle/Resources/public/js/models/vacancy.js"
+        "@RithisHeroHRBundle/Resources/public/js/collections/vacancies.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/content.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/navbar.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/vacancies.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/vacancy-form.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/vacancy-preview.js"
+        "@RithisHeroHRBundle/Resources/public/js/views/vacancy.js"
+        "@RithisHeroHRBundle/Resources/public/js/routers/vacancy.js"
+        "@RithisHeroHRBundle/Resources/public/js/app.js"
+    %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    {% block javascripts "" %}
+{% endif %}
+</body>
+</html>

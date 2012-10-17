@@ -6,6 +6,12 @@ framework:
     secret: %secret%
     router: { resource: "%kernel.root_dir%/config/routing.yml" }
     templating: { engines: [twig] }
+    form: ~
+    validation: { enable_annotations: true }
+
+twig:
+    paths:
+        - "%kernel.root_dir%/../src/Rithis/HeroHRBundle/Resources/views/shared"
 
 doctrine:
     dbal:
@@ -19,3 +25,32 @@ doctrine:
         charset: UTF8
     orm:
         auto_mapping: true
+
+stof_doctrine_extensions:
+    default_locale: en_US
+    orm:
+        default:
+            sluggable: true
+
+sensio_framework_extra:
+    view: { annotations: false }
+
+fos_rest:
+    view:
+        templating_formats:
+            html: true
+            xml: true
+        mime_types:
+            xml: ["application/xml", "application/hr.hero.vacancies+xml"]
+            json: ["application/json", "application/hr.hero.vacancies+json"]
+    allowed_methods_listener: true
+    format_listener:
+        default_priorities: [html, json, xml, */*]
+        fallback_format: html
+
+nelmio_api_doc:
+    name: Hero HR API Documentation
+    request_listener: false
+    sandbox:
+        request_format: { method: accept_header }
+
